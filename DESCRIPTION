@@ -9,7 +9,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: 
   jsonlite,
-  V8 (>= 8.0.0)
-BugReports: https://github.com/jeroen/toml/issues
+  V8 (>= 8.0.1)
+URL: https://r-lib.r-universe.dev/toml
+BugReports: https://github.com/r-lib/toml/issues
 RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)

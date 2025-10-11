@@ -17,8 +17,8 @@ it does not make too much of a difference.
 
 Installation requires no compilation:
 
-```
-pak::pak("jeroen/toml")
+```r
+install.packages("toml")
 ```
 
 ## Example

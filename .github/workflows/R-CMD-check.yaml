@@ -19,6 +19,7 @@ jobs:
           - {os: macos-14,   r: 'release'}
           - {os: macos-15,   r: 'release'}
           - {os: macos-15-intel, r: 'release'}
+          - {os: windows-2025, r: 'next'}
           - {os: windows-2025, r: '4.5'}
           - {os: windows-2025, r: '4.4'}
           - {os: windows-2025, r: '4.3'}
@@ -33,7 +34,7 @@ jobs:
       R_KEEP_PKG_SOURCE: yes
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
 
       - uses: r-lib/actions/setup-pandoc@v2
 

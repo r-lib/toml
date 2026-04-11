@@ -7,7 +7,7 @@
   "type": "module",
   "main": "toml-edit-js.js",
   "dependencies": {
-    "@rainbowatcher/toml-edit-js": "^0.6.3",
+    "@rainbowatcher/toml-edit-js": "^0.6.5",
     "esbuild": "^0.25.10",
     "text-decoding": "^1.0.0"
   },

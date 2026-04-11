@@ -1,7 +1,7 @@
 Package: toml
 Type: Package
 Title: Read, Write, and Modify TOML Files
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: person("Jeroen", "Ooms", email = "jeroenooms@gmail.com", role = c("aut", "cre"))
 Description: Simple toolkit for working with TOML text. Based on tomledit which
     allows for modifying TOML while preserving order, comments,and whitespace.

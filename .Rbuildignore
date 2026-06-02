@@ -11,3 +11,5 @@
 ^LICENSE.md$
 ^.*\.png$
 ^.*\.svg$
+^\.positai$
+^\.claude$

@@ -37,7 +37,7 @@ parse_toml <- function(toml, as_json = FALSE){
 #' they are wrapped in `I()`. See also [jsonlite::toJSON].
 write_toml <- function(x, auto_unbox = TRUE){
   if(!is.character(x)){
-    x <- jsonlite::toJSON(x, auto_unbox = TRUE)
+    x <- jsonlite::toJSON(x, auto_unbox = TRUE, digits = NA)
   }
   ctx$assign('input', x)
   as_toml(ctx$eval('toml_edit.stringify(JSON.parse(input))'))
